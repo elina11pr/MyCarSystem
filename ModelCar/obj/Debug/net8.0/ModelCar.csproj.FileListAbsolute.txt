@@ -1,0 +1,14 @@
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ModelCar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ModelCar.AssemblyInfoInputs.cache
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ModelCar.AssemblyInfo.cs
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ModelCar.csproj.CoreCompileInputs.cache
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\bin\Debug\net8.0\ModelCar.exe
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\bin\Debug\net8.0\ModelCar.deps.json
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\bin\Debug\net8.0\ModelCar.runtimeconfig.json
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\bin\Debug\net8.0\ModelCar.dll
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\bin\Debug\net8.0\ModelCar.pdb
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ModelCar.dll
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\refint\ModelCar.dll
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ModelCar.pdb
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ModelCar.genruntimeconfig.cache
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ref\ModelCar.dll
