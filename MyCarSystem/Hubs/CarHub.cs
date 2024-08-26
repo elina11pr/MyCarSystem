@@ -51,19 +51,21 @@ namespace MyCarSystem.CarServer
             }
             catch (EngineStoppedException ex)
             {
-                await Clients.Caller.SendAsync("EngineStopped", ex.Message);
+                Console.WriteLine(ex.Message);
             }
         }
 
-        private Task StopDriving()
+        private void  StopDriving()
         {
             if (_registeredCar == null)
             {
-                return Clients.Caller.SendAsync("Error", "No car registered.");
+                Console.WriteLine("No car registered.");
+                return;
             }
 
             _registeredCar.StopEngine();
-            return Clients.Caller.SendAsync("CarStopped", "Car has stopped.");
+
+            
         }
 
         public Task<string> TestConnection()
