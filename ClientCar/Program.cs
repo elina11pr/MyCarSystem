@@ -9,9 +9,10 @@ namespace ClientCar
         static async Task Main(string[] args)
         {
             Console.WriteLine("Start");
-            var myCar = new CivilSedan("Toyota", "Camry", 2020, "Black", 240, 5, true, "AB123CD", false, "Premium", true);
+            var myCar = new CivilSedan("Toyota", "Camry", 2020, "Black", 240, "AB123CD", false, "Premium", true);
 
             var url = "http://localhost:7054/current-time";
+
 
             var client = new ClientHub(url);
             await client.ExecuteAsync();

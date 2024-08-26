@@ -8,8 +8,8 @@ namespace MyCarSystem.CarServer
     public class CarHub : Hub
     {
         private Auto _registeredCar;
-
-        public Task<string> RegisterCar(Auto car)
+          
+        public async Task<string> RegisterCar(Auto car)
         {
             try
             {
@@ -18,7 +18,7 @@ namespace MyCarSystem.CarServer
                 if (car == null)
                 {
                     Console.WriteLine("Car parameter is null.");
-                    return Task.FromResult("Error: Car parameter is null.");
+                    return "Error: Car parameter is null.";
                 }
 
                 Console.WriteLine($"Car Details: Make - {car.Make}, Model - {car.Model}");
@@ -26,22 +26,23 @@ namespace MyCarSystem.CarServer
                 _registeredCar = car;
                 Console.WriteLine("Car registered successfully.");
 
-                return Task.FromResult($"Car {car.Make} {car.Model} registered successfully.");
+                await StartDriving(); 
+
+                return $"Car {car.Make} {car.Model} registered successfully.";
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error in RegisterCar: {ex.Message}");
                 Console.WriteLine($"Stack Trace: {ex.StackTrace}");
-                return Task.FromResult("Error registering car.");
+                return "Error registering car.";
             }
         }
 
-        public async Task StartDriving()
+        private async Task StartDriving()
         {
             if (_registeredCar == null)
             {
-                await Clients.Caller.SendAsync("Error", "No car registered.");
-                return;
+                Console.WriteLine("Car start");
             }
 
             try
@@ -54,7 +55,7 @@ namespace MyCarSystem.CarServer
             }
         }
 
-        public Task StopDriving()
+        private Task StopDriving()
         {
             if (_registeredCar == null)
             {
@@ -71,5 +72,6 @@ namespace MyCarSystem.CarServer
             return Task.FromResult("It works! (Client)");
         }
     }
+
 
 }
