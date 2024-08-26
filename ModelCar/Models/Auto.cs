@@ -10,12 +10,12 @@ namespace MyCarSystem.ModelCar
 {
     public class Auto
     {
-        public string Make { get; private set; }
-        public string Model { get; private set; }
-        public int Year { get; private set; }
-        public string Color { get; private set; }
-        public int MaxSpeed { get; private set; }
-        public bool IsEngineRunning { get; private set; } = false;
+        public string Make { get; set; }
+        public string Model { get; set; }
+        public int Year { get; set; }
+        public string Color { get; set; }
+        public int MaxSpeed { get; set; }
+        public bool IsEngineRunning { get; set; } = false;
 
         public Auto(string make, string model, int year, string color, int maxSpeed)
         {
@@ -32,19 +32,9 @@ namespace MyCarSystem.ModelCar
             {
                 IsEngineRunning = true;
                 Console.WriteLine($"Двигун {Make} {Model} запущено.");
-
                 await Task.Delay(15000);
                 StopEngine();
                 throw new EngineStoppedException($"{Make} {Model} автоматично зупинився через 15 секунд.");
-            }
-        }
-
-        public void StartEngine()
-        {
-            if (!IsEngineRunning)
-            {
-                IsEngineRunning = true;
-                Console.WriteLine($"Двигун {Make} {Model} запущено.");
             }
         }
 
@@ -57,4 +47,5 @@ namespace MyCarSystem.ModelCar
             }
         }
     }
+
 }

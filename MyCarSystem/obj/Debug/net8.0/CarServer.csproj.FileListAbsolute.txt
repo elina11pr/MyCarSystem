@@ -26,3 +26,4 @@ C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\refint\CarS
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.pdb
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.genruntimeconfig.cache
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\ref\CarServer.dll
+C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.sourcelink.json

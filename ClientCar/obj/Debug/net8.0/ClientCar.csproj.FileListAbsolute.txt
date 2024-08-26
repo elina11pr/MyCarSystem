@@ -57,3 +57,4 @@ C:\Users\igori\source\repos\MyCarSystem\ClientCar\obj\Debug\net8.0\refint\Client
 C:\Users\igori\source\repos\MyCarSystem\ClientCar\obj\Debug\net8.0\ClientCar.pdb
 C:\Users\igori\source\repos\MyCarSystem\ClientCar\obj\Debug\net8.0\ClientCar.genruntimeconfig.cache
 C:\Users\igori\source\repos\MyCarSystem\ClientCar\obj\Debug\net8.0\ref\ClientCar.dll
+C:\Users\igori\source\repos\MyCarSystem\ClientCar\obj\Debug\net8.0\ClientCar.sourcelink.json

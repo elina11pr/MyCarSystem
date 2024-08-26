@@ -12,3 +12,4 @@ C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\refint\ModelCa
 C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ModelCar.pdb
 C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ModelCar.genruntimeconfig.cache
 C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ref\ModelCar.dll
+C:\Users\igori\source\repos\MyCarSystem\ModelCar\obj\Debug\net8.0\ModelCar.sourcelink.json

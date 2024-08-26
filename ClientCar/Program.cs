@@ -4,9 +4,9 @@ using System;
 
 namespace ClientCar
 {
-    public class Program 
-    { 
-        static async Task Main(string[] args) 
+    public class Program
+    {
+        static async Task Main(string[] args)
         {
             Console.WriteLine("Start");
             var myCar = new CivilSedan("Toyota", "Camry", 2020, "Black", 240, 5, true, "AB123CD", false, "Premium", true);
@@ -19,6 +19,10 @@ namespace ClientCar
             var result = await client.RegisterCar(myCar);
 
             Console.WriteLine($"Server Response: {result}");
+            var testResult = await client.TestConnection();
+            Console.WriteLine(testResult);
+
+            Console.WriteLine("Press any key to exit..."); Console.ReadKey();
         }
     }
 }

@@ -9,8 +9,8 @@ namespace MyCarSystem.ModelCar
 {
     public class CivilCar : PassengerCar
     {
-        public string LicensePlate { get; private set; }
-        public bool IsElectric { get; private set; }
+        public string LicensePlate { get; set; }
+        public bool IsElectric { get; set; }
 
         public CivilCar(string make, string model, int year, string color, int maxSpeed, int numberOfSeats, bool hasAirConditionin, string lisensePlate, bool iselectric)
             : base(make, model, year, color, maxSpeed, numberOfSeats, hasAirConditionin)

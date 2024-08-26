@@ -1,31 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MyCarSystem.ModelCar;
+﻿using MyCarSystem.ModelCar;
+using System.Reflection;
 
-namespace MyCarSystem.ModelCar
+public class MilitaryVehicle : Truck
 {
-    public class MilitalyVechile : Truck
+    public bool IsArmored { get; set; }
+    public string WeaponType { get; set; }
+
+    public MilitaryVehicle(string make, string model, int year, string color, int maxSpeed, int loadCapacity, bool hasTrailer, bool isArmored, string weaponType)
+        : base(make, model, year, color, maxSpeed, loadCapacity, hasTrailer)
     {
-        public bool IsArmored { get; private set; }
-        public string WeaponType { get; private set; }
+        IsArmored = isArmored;
+        WeaponType = weaponType;
+    }
 
-        public MilitalyVechile(string make, string model, int year, string color, int maxSpeed, int loatCapacity, bool hasTrailer, bool isArmored, string weaponType)
-            : base(make, model, year, color, maxSpeed, loatCapacity, hasTrailer)
+    public void EngageWeapon()
+    {
+        if (!string.IsNullOrEmpty(WeaponType))
         {
-            IsArmored = isArmored;
-            WeaponType = weaponType;
-        }
-
-        public void EngageWeapon()
-        {
-            if (!string.IsNullOrEmpty(WeaponType))
-            {
-                Console.WriteLine($"Озброєння {WeaponType} активовано на {Make} {Model}");
-            }
-
+            Console.WriteLine($"Озброєння {WeaponType} активовано на {Make} {Model}");
         }
     }
 }

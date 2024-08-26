@@ -7,16 +7,22 @@ using MyCarSystem.ModelCar;
 
 namespace MyCarSystem.ModelCar
 {
-    public class CivilSedan : CivilCar
+    public class CivilSedan : Auto
     {
-        public string InfotainmentSystem { get; private set; }
-        public bool HasSunroof { get; private set; }
-        public CivilSedan(string make, string model, int year, string color, int maxSpeed, int numberOfSeats, bool hasAirConditioning, string licensePlate, bool isElectric, string infotainmentSystem, bool hasSunroof)
-             : base(make, model, year, color, maxSpeed, numberOfSeats, hasAirConditioning, licensePlate, isElectric)
+        public string LicensePlate { get; set; }
+        public bool IsElectric { get; set; }
+        public string InfotainmentSystem { get; set; }
+        public bool HasSunroof { get; set; }
+
+        public CivilSedan(string make, string model, int year, string color, int maxSpeed, string licensePlate, bool isElectric, string infotainmentSystem, bool hasSunroof)
+            : base(make, model, year, color, maxSpeed)
         {
+            LicensePlate = licensePlate;
+            IsElectric = isElectric;
             InfotainmentSystem = infotainmentSystem;
             HasSunroof = hasSunroof;
         }
+
         public void OpenSunroof()
         {
             if (HasSunroof)
@@ -29,4 +35,6 @@ namespace MyCarSystem.ModelCar
             }
         }
     }
+
+
 }
