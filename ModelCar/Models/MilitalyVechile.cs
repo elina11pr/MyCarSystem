@@ -1,4 +1,4 @@
-﻿using MyCarSystem.ModelCar;
+﻿using MyCarSystem.Model;
 using System.Reflection;
 
 public class MilitaryVehicle : Truck

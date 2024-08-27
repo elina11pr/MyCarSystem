@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.AspNetCore.SignalR.Client;
-using MyCarSystem.ModelCar;
+using MyCarSystem.Model;
 
 
 namespace MyCarSystem.ClientCar
@@ -27,19 +27,27 @@ namespace MyCarSystem.ClientCar
                     await Task.Delay(new Random().Next(0, 5) * 1000);
                     await _connection.StartAsync();
                 };
-
-                _connection.On<string>("EngineStopped", (message) =>
+   
+                _connection.On<Auto>("StartEngine", async (car) =>
                 {
-                    Console.WriteLine($"Engine stopped: {message}");
-                });
+                    Console.WriteLine($"Starting engine for {car.Make} {car.Model}");
+                    await car.StartEngineAsync();
+                } );
 
-                _connection.On<string>("CarStopped", (message) =>
-                {
-                    Console.WriteLine($"Car stopped: {message}");
-                });
 
-                await _connection.StartAsync();
-                Console.WriteLine("Connected to the server.");
+                 _connection.On<Auto>($"StartEngineWithStop", async(car) =>
+                  {
+                     Console.WriteLine($"Starting engine with automatic stop for {car.Make}, {car.Model}");
+                     await car.StartEngineAsync();
+                     await Task.Delay(15000);
+                        car.StopEngine();
+                     Console.WriteLine($"Engine stopped automatically with {car.Make}, {car.Model}");
+                 });
+
+            await _connection.StartAsync();
+            Console.WriteLine("Connected to server");
+
+                
             }
 
             public async Task<string> RegisterCar(Auto newCar)

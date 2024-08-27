@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MyCarSystem.ModelCar;
+using MyCarSystem.Model;
 
 
-namespace MyCarSystem.ModelCar
+namespace MyCarSystem.Model
 {
     public class Auto
     {

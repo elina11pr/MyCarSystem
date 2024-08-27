@@ -3,9 +3,6 @@ C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.G
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.AssemblyInfoInputs.cache
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.AssemblyInfo.cs
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.csproj.CoreCompileInputs.cache
-C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\ModelCar.deps.json
-C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\ModelCar.runtimeconfig.json
-C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\ModelCar.exe
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\CarServer.exe
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\CarServer.deps.json
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\CarServer.runtimeconfig.json
@@ -18,8 +15,6 @@ C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\Microsoft.E
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
-C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\ModelCar.dll
-C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\ModelCar.pdb
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.csproj.Up2Date
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.dll
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\refint\CarServer.dll
@@ -27,3 +22,8 @@ C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.p
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.genruntimeconfig.cache
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\ref\CarServer.dll
 C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\obj\Debug\net8.0\CarServer.sourcelink.json
+C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\Model.deps.json
+C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\Model.runtimeconfig.json
+C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\Model.exe
+C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\Model.dll
+C:\Users\igori\source\repos\MyCarSystem\MyCarSystem\bin\Debug\net8.0\Model.pdb

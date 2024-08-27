@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 using System.Threading.Tasks;
-using MyCarSystem.ModelCar;
+using MyCarSystem.Model;
 
 
 namespace MyCarSystem.CarServer
@@ -38,6 +38,30 @@ namespace MyCarSystem.CarServer
             }
         }
 
+        public async Task StartEngineOnClient()
+        {
+            if (_registeredCar == null)
+            {
+                Console.WriteLine("No car registered.");
+                return;
+            }
+
+            
+            await Clients.All.SendAsync("StartEngine", _registeredCar);
+        }
+
+        public async Task StartEngineOnClientWithStop()
+        {
+            if (_registeredCar == null)
+            {
+                Console.WriteLine("No car registered.");
+                return;
+            }
+
+            
+            await Clients.All.SendAsync("StartEngineWithStop", _registeredCar);
+        }
+
         private async Task StartDriving()
         {
             if (_registeredCar == null)
@@ -64,7 +88,7 @@ namespace MyCarSystem.CarServer
             }
 
             _registeredCar.StopEngine();
-
+            
             
         }
 

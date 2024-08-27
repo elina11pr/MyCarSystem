@@ -10,7 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.SignalR": "1.1.0",
           "Microsoft.AspNetCore.SignalR.Protocols.Json": "8.0.8",
-          "ModelCar": "1.0.0"
+          "Model": "1.0.0"
         },
         "runtime": {
           "CarServer.dll": {}
@@ -311,9 +311,9 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "ModelCar/1.0.0": {
+      "Model/1.0.0": {
         "runtime": {
-          "ModelCar.dll": {}
+          "Model.dll": {}
         }
       }
     }
@@ -653,7 +653,7 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "ModelCar/1.0.0": {
+    "Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

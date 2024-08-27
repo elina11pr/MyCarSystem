@@ -4,12 +4,12 @@
     "C:\\Users\\igori\\source\\repos\\MyCarSystem\\MyCarSystem\\CarServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj": {
+    "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj",
-        "projectName": "ModelCar",
-        "projectPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj",
+        "projectUniqueName": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj",
         "packagesPath": "C:\\Users\\igori\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\obj\\",
         "projectStyle": "PackageReference",
@@ -90,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj": {
-                "projectPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj"
+              "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj": {
+                "projectPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj"
               }
             }
           }

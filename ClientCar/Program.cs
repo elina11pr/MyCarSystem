@@ -1,5 +1,5 @@
 ﻿using MyCarSystem.ClientCar;
-using MyCarSystem.ModelCar;
+using MyCarSystem.Model;
 using System;
 
 namespace ClientCar
@@ -20,6 +20,11 @@ namespace ClientCar
             var result = await client.RegisterCar(myCar);
 
             Console.WriteLine($"Server Response: {result}");
+
+            await client.TestConnection();
+            Console.WriteLine("Start engine command send");
+            Console.WriteLine("Start engine with stop command send");
+
             var testResult = await client.TestConnection();
             Console.WriteLine(testResult);
 

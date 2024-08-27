@@ -5,9 +5,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using MyCarSystem.ModelCar;
+using MyCarSystem.Model;
 
-namespace MyCarSystem.ModelCar
+namespace MyCarSystem.Model
 {
     public class Truck : Auto
     {
@@ -28,7 +28,7 @@ namespace MyCarSystem.ModelCar
             {
                 Console.WriteLine($"У {Make} {Model} немає причепа.");
             }
-        }
+        } 
 
         public void DetachTrailer()
         {

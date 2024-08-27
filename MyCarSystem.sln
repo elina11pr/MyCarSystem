@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarServer", "MyCarSystem\CarServer.csproj", "{DCFC9E59-6750-4474-9005-D95D0859399A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarServer", "MyCarSystem\CarServer.csproj", "{DCFC9E59-6750-4474-9005-D95D0859399A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientCar", "ClientCar\ClientCar.csproj", "{97C59869-7071-445F-BC4E-C5383076CD5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientCar", "ClientCar\ClientCar.csproj", "{97C59869-7071-445F-BC4E-C5383076CD5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelCar", "ModelCar\ModelCar.csproj", "{61392886-1267-40BA-9F5E-ACB230AF5B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "ModelCar\Model.csproj", "{61392886-1267-40BA-9F5E-ACB230AF5B67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

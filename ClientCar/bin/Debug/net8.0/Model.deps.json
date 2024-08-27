@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "ModelCar/1.0.0": {
+      "Model/1.0.0": {
         "runtime": {
-          "ModelCar.dll": {}
+          "Model.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ModelCar/1.0.0": {
+    "Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

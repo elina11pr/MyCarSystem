@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj": {}
+    "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj": {
+    "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj",
-        "projectName": "ModelCar",
-        "projectPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj",
+        "projectUniqueName": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj",
         "packagesPath": "C:\\Users\\igori\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\obj\\",
         "projectStyle": "PackageReference",
@@ -18,7 +18,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -39,12 +39,12 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -57,11 +57,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

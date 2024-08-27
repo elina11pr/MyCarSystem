@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj",
-      "projectName": "ModelCar",
-      "projectPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\ModelCar.csproj",
+      "projectUniqueName": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj",
+      "projectName": "Model",
+      "projectPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\Model.csproj",
       "packagesPath": "C:\\Users\\igori\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\igori\\source\\repos\\MyCarSystem\\ModelCar\\obj\\",
       "projectStyle": "PackageReference",
