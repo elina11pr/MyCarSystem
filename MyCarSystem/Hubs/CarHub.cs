@@ -25,8 +25,7 @@ namespace MyCarSystem.CarServer
 
                 _registeredCar = car;
                 Console.WriteLine("Car registered successfully.");
-
-                await StartDriving(); 
+                await Clients.Caller.SendAsync("StartDriving", car);
 
                 return $"Car {car.Make} {car.Model} registered successfully.";
             }

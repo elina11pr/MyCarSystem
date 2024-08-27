@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.AspNetCore.SignalR.Client;
 using MyCarSystem.Model;
+using MyCarSystem.ClientCar;
+using MyCarSystem.ClientCar.Services;
 
 
 namespace MyCarSystem.ClientCar
@@ -9,10 +11,12 @@ namespace MyCarSystem.ClientCar
         {
             private readonly string _url;
             private HubConnection _connection;
+            private CarClientService service;
 
             public ClientHub(string url)
             {
-                _url = url;
+            service = new CarClientService();
+            _url = url;
             }
 
             public async Task ExecuteAsync()
@@ -33,9 +37,17 @@ namespace MyCarSystem.ClientCar
                     Console.WriteLine($"Starting engine for {car.Make} {car.Model}");
                     await car.StartEngineAsync();
                 } );
+            _connection.On<Auto>("StartDriving", async (car) =>
+            {
+                Console.WriteLine($"Received signal to start driving for {car.Make} {car.Model}");
+                
+                await service.StartDriving(car);
+                
+            });
 
 
-                 _connection.On<Auto>($"StartEngineWithStop", async(car) =>
+
+            _connection.On<Auto>($"StartEngineWithStop", async(car) =>
                   {
                      Console.WriteLine($"Starting engine with automatic stop for {car.Make}, {car.Model}");
                      await car.StartEngineAsync();

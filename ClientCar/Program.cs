@@ -21,10 +21,6 @@ namespace ClientCar
 
             Console.WriteLine($"Server Response: {result}");
 
-            await client.TestConnection();
-            Console.WriteLine("Start engine command send");
-            Console.WriteLine("Start engine with stop command send");
-
             var testResult = await client.TestConnection();
             Console.WriteLine(testResult);
 
